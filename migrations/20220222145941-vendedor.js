@@ -32,7 +32,7 @@ module.exports = {
         allowNull: true
       },
       telefone: {
-        type: Sequelize.BIGINT,
+        type: Sequelize.STRING,
         allowNull: true
       }
     });

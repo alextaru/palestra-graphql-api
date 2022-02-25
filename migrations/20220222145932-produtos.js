@@ -13,7 +13,7 @@ module.exports = {
       },
       codigo_barra: {
         type: Sequelize.STRING,
-        allowNull: true
+        allowNull: false
       },
       codigo: {
         type: Sequelize.STRING,
@@ -25,7 +25,7 @@ module.exports = {
       },
       marca: {
         type: Sequelize.STRING,
-        allowNull: true,
+        allowNull: false,
       },
       preco_compra: {
         type: Sequelize.FLOAT,
@@ -33,7 +33,7 @@ module.exports = {
       },
       preco_custo: {
         type: Sequelize.FLOAT,
-        allowNull: true
+        allowNull: false
       },
       preco_venda: {
         type: Sequelize.FLOAT,
@@ -41,7 +41,7 @@ module.exports = {
       },
       estoque: {
         type: Sequelize.INTEGER,
-        allowNull: true
+        allowNull: false
       },
     });
   },

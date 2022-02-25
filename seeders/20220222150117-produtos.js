@@ -13,6 +13,7 @@ module.exports = {
       preco_custo: 800,
       preco_venda: 1000,
       estoque: 3,
+      marca: 'dell',
     },
   ]);
   },
